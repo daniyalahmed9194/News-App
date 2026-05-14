@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Quiz_2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Theme.Quiz_2" parent="Base.Theme.Quiz_2" />
+
+    <style name="Theme.Quiz_2.Splash" parent="Theme.Quiz_2">
+        <item name="android:windowBackground">@color/primary</item>
+    </style>
+</resources>

@@ -1,0 +1,81 @@
+Project Title
+
+News Headlines App
+
+The purpose of this project is to build a simple mobile application that fetches latest news
+headlines from an online API and displays them in a clean list format.
+
+Students will learn how real-world mobile apps communicate with external servers, receive
+JSON data, and display dynamic content inside the app.
+
+Screens Required
+
+1. Splash Screen
+
+Purpose:
+Show app logo/name for 2 seconds before opening the main screen.
+
+2. Home Screen
+
+Purpose:
+Display latest news headlines.
+
+Each news card should show:
+
+     News image
+     News title
+     Source name
+     Published date
+
+3. Detail Screen
+
+Purpose:
+Show full information about selected news.
+
+The "Read Full Article" button can open the original news URL in browser.
+
+Detail Screen Should Show:
+
+     News image
+     News title
+     Full description
+     Source name
+     Published date
+     Content preview
+     "Read Full Article" button
+
+7. Country Selection
+
+Allow users to choose news by country.
+
+Examples:
+
+     Pakistan
+     United States
+     United Kingdom
+     India
+     Saudi Arabia
+     UAE
+
+Recommended API
+
+After creating an account on gnews.io, students will get an API key.
+
+Use this endpoint:
+
+https://gnews.io/api/v4/top-
+headlines?category=general&lang=en&country=us&max=10&apikey=YOUR_API_KEY
+
+Expected Outcome
+
+Students should complete the following features:
+
+    1. Fetch latest news headlines from API
+    2. Display news title, image, source, and published date
+    3. Show news items in RecyclerView
+    4. Open detail screen when a user clicks a news item
+    5. Pass selected news data to the detail screen using Intent
+    6. Show loading progress while data is being fetched
+    7. Show error message if internet/API fails
+    8. Add a refresh button to reload news
+
